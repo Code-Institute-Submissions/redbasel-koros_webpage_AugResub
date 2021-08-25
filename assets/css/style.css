@@ -14,8 +14,8 @@ body, html {
 }
 
 #hero-image {
-    background-image: url("../images/hero1.jpg");
-    height: 500px;
+    background-image: url("../images/hero3.png");
+    height: 600px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
