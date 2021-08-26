@@ -142,8 +142,7 @@ How I have tested the website:
 
 ## Citations
 
-* 1
+* https://dyclassroom.com/reference-javascript/player-for-website-video-and-audio-using-plyr PLYR GUIDE
 *  2
 * 3
 * 4
-
