@@ -15,7 +15,7 @@ html, body {
 
 #hero-image {
     background-image: url("../images/hero3.png");
-    min-height: 100%;
+    min-height: 600px;
     width: 100%;
     background-position: center;
     background-repeat: no-repeat;
@@ -64,11 +64,8 @@ html, body {
       box-shadow: 10px 10px 0 rgba(0, 0, 0, .3);
       text-align: center;
       overflow:hidden;
-      
       -webkit-backface-visibility: hidden;
-      
       border:solid 1px #000;
-    
       text-decoration: none;
     }
     
@@ -107,17 +104,20 @@ html, body {
     
     .green {
     color: green;
-    background-image: url("../images/hero3.png");
+    background-image: url("../images/jesper_coach.jpg");
+    background-size: cover;
     }
     
     .orange {
     color: orange;
-    background: #7515E2;
+    background-image: url("../images/josef_coach.jpg");
+    background-size: cover;
     }
     
     .purple {
     color: purple;
-    background: #FE89DE;
+    background-image: url("../images/josef_coach.jpg");
+    background-size: cover;
     }
     
     .yellow {
