@@ -82,8 +82,8 @@ div {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
+  float: left;
 }
-
 /* block style */
 
 .wrapper {
@@ -188,4 +188,9 @@ div {
 
 .blue {
   color: blue;
+}
+
+.contact_form {
+  text-align: center;
+  padding-top: 20%;
 }
