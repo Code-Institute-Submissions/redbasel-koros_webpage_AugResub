@@ -10,20 +10,23 @@
 </head>
 
 <body>
-  <header>
+  <header class="sticky">
     <a href="index.html">
       <h1 id="logotext">KOROS</h1>
     </a>
     <nav>
       <ul id="menu">
         <li>
-          <a href="index_copy.html" class="active">HOME</a>
+          <a href="#hero-image">HOME</a>
         </li>
         <li>
-          <a href="josef.html">TEAM</a>
+          <a href="#about_us">ABOUT US</a>
         </li>
         <li>
-          <a href="#about us">CONTACT</a>
+          <a href="#team">TEAM</a>
+        </li>
+        <li>
+          <a href="#contact">CONTACT</a>
         </li>
       </ul>
     </nav>
@@ -32,7 +35,7 @@
     <div id="hero-image"></div>
   </section>
   <section id="club-ethos">
-    <div>
+    <div id="about_us">
       <h2>About Us</h2>
       <p> You don't want just a gym membership. You want a membership that means something. And that means you need
         support, expert help and a community. KOROS isn't just a gym: it's a full-service fitness membership
@@ -63,7 +66,7 @@
   </section>
   <section id="times">
 
-    <div class="blocks wrapper">
+    <div class="blocks wrapper" id="team">
       <h2>Meet our coaches</h2>
 
 
@@ -81,29 +84,6 @@
         </div>
         <div class="num"><i class="far fa-envelope"></i></div>
       </a>
-
-
-
-      <a href="comingsoon.html" class="block purple">
-        <div class="heading">
-          Plans
-        </div>
-        <div class="num"><i class="far fa-file-alt"></i></div>
-      </a>
-
-
-
-      <a href="comingsoon.html" class="block yellow">
-        <div class="heading">
-          Progress
-        </div>
-        <div class="num"><i class="fas fa-chart-bar"></i></div>
-      </a>
-
-
-
-
-
     </div>
     <!--Blocks Ends-->
   </section>
@@ -111,60 +91,61 @@
     <div id="hero-image"></div>
   </section>
   <section>
-    <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
-      <!-- Contact info-->
-      <h2>Prospective Client Form<i class="fas fa-heartbeat"></i></h2>
-      <label for="fname">First Name</label>
-      <input id="fname" name="first_name" type="text" required class="text-input">
+    <div id="contact">
+      <form method="POST" action="https://formdump.codeinstitute.net/" class="signup-form">
+        <!-- Contact info-->
+        <h2>Prospective Client Form<i class="fas fa-heartbeat"></i></h2>
+        <label for="fname">First Name</label>
+        <input id="fname" name="first_name" type="text" required class="text-input">
 
-      <label for="lname">Last Name</label>
-      <input id="lname" name="last_name" type="text" required class="text-input">
-      <br> <br>
+        <label for="lname">Last Name</label>
+        <input id="lname" name="last_name" type="text" required class="text-input">
+        <br> <br>
 
-      <label for="email">Email Address</label>
-      <input type="email" id="email" name="email_address" required class="text-input">
+        <label for="email">Email Address</label>
+        <input type="email" id="email" name="email_address" required class="text-input">
 
-      <h3>Current Situation</h3>
-      <!-- qualitative feedback -->
-      <H4>ENERGY</H4>
-      <label for="problematic1">Problematic</label>
-      <input type="radio" id="problematic1" name="energy" value="problematic" required>
+        <h3>Current Situation</h3>
+        <!-- qualitative feedback -->
+        <H4>ENERGY</H4>
+        <label for="problematic1">Problematic</label>
+        <input type="radio" id="problematic1" name="energy" value="problematic" required>
 
-      <label for="normal1">Normal</label>
-      <input type="radio" id="normal1" name="energy" value="normal" required>
+        <label for="normal1">Normal</label>
+        <input type="radio" id="normal1" name="energy" value="normal" required>
 
-      <label for="great1">Great</label>
-      <input type="radio" id="great1" name="energy" value="great" required>
+        <label for="great1">Great</label>
+        <input type="radio" id="great1" name="energy" value="great" required>
 
-      <H4>SLEEP</H4>
-      <label for="problematic2">Problematic</label>
-      <input type="radio" id="problematic2" name="sleep" value="problematic" required>
+        <H4>SLEEP</H4>
+        <label for="problematic2">Problematic</label>
+        <input type="radio" id="problematic2" name="sleep" value="problematic" required>
 
-      <label for="normal2">Normal</label>
-      <input type="radio" id="normal2" name="sleep" value="normal" required>
+        <label for="normal2">Normal</label>
+        <input type="radio" id="normal2" name="sleep" value="normal" required>
 
-      <label for="great2">Great</label>
-      <input type="radio" id="great2" name="sleep" value="great" required>
+        <label for="great2">Great</label>
+        <input type="radio" id="great2" name="sleep" value="great" required>
 
-      <H4>HUNGER</H4>
-      <label for="problematic3">Problematic</label>
-      <input type="radio" id="problematic3" name="hunger" value="problematic" required>
+        <H4>HUNGER</H4>
+        <label for="problematic3">Problematic</label>
+        <input type="radio" id="problematic3" name="hunger" value="problematic" required>
 
-      <label for="normal3">Normal</label>
-      <input type="radio" id="normal3" name="hunger" value="normal" required>
+        <label for="normal3">Normal</label>
+        <input type="radio" id="normal3" name="hunger" value="normal" required>
 
-      <label for="great3">Great</label>
-      <input type="radio" id="great3" name="hunger" value="great" required>
-      <br><br><br>
+        <label for="great3">Great</label>
+        <input type="radio" id="great3" name="hunger" value="great" required>
+        <br><br><br>
 
-      <label for="extracomment">Extra Comment</label> <br>
+        <label for="extracomment">Extra Comment</label> <br>
 
-      <textarea id="extracomment" name="extracomment" rows="3" cols="40">
+        <textarea id="extracomment" name="extracomment" rows="3" cols="40">
       </textarea> <br><br>
 
 
-      <input class="join-button" type="submit" value="Send FOLLOWUP">
-    </form>
+        <input class="join-button" type="submit" value="Send FOLLOWUP">
+      </form>
 
     </div>
   </section>

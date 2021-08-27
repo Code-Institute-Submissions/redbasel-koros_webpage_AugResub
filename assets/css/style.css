@@ -1,136 +1,171 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira:ital,wght@0,600;1,500&display=swap');
-<link rel="stylesheet" href="https://cdn.plyr.io/2.0.15/plyr.css">
+header {
+  background-color: brown;
 
-
-html, body {
-    height: 100%;
 }
 
+/* Style the header */
+.sticky {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
+}
+
+
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  /*padding-top: 85px;*/
+}
+
+
+
+div {
+  height: 100%;
+  width: 100%;
+}
+#menu {
+  color:brown;
+}
+#menu li {
+  float: right;
+  list-style-type:disc;
+  margin-right: 40px;
+}
 #logotext {
-    color: #377E7A;
-    background-color: white; /* kolla denna jan */
-    text-decoration: none;
-    font-family: Saira;
-    font-weight: 600;
+  color: #377E7A;
+  /* kolla denna jan */
+  text-decoration: none;
+  font-family: Saira;
+  font-weight: 600;
 }
+
 
 #hero-outer {
-  height: 100%;;
+  height: 100%;
+  ;
 }
+
 #hero-image {
-    background-image: url("../images/hero3.png");
-    height: 1000%;
-    width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow: hidden;
+  background-image: url("../images/hero3.png");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
 }
 
 /* block style */
 
 .wrapper {
-    width: 95%;
-    }
-    
-    .header-container {
-      color: white;
-      height: 50px;
-      background: black;
-      background:rgba(0, 0, 0, .5);
-      border-bottom: solid 1px black;
-    }
-    
-    .header {
-      margin:0 auto;
-    }
-    
-    .header h1 {
-      font-weight:400;
-      margin:0;
-      margin-left:.5em;
-      padding-top:5px;
-    }
-    
-    .blocks {
-    margin: 0 auto;
-    }
-    
-    .block {
-      float:left;
-      margin-top:20px;
-      position:relative;
-      background: black;
-      width: 18.85%;
-      margin-right:1%;
-      min-width:250px;
-      height: 260px;
-      box-shadow: 10px 10px 0 rgba(0, 0, 0, .3);
-      text-align: center;
-      overflow:hidden;
-      -webkit-backface-visibility: hidden;
-      border:solid 1px #000;
-      text-decoration: none;
-    }
-    
-    .block:hover {
-      color:white;
-    
-    }
-    
-    .yellow a:link {
-      color:black;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    .heading {
-      height:30px;
-      position:relative;
-      font-size: 1.4em;
-      width:100%;
-      background:rgba(255, 255, 255, .13);
-      padding: 25px 0;
-      border-bottom: solid 1px;
-    }
-    
-    .num {
-      position:relative;
-    font-size: 4.2em;
-    padding-top: 40px;
-    }
-    
-    .greenboxlink a:link {
-      color:black;
-      background-color: transparent;
-      text-decoration: none;
-    }
-    
-    .green {
-    color: green;
-    background-image: url("../images/jesper_coach.jpg");
-    background-size: cover;
-    }
-    
-    .orange {
-    color: orange;
-    background-image: url("../images/josef_coach.jpg");
-    background-size: cover;
-    }
-    
-    .purple {
-    color: purple;
-    background-image: url("../images/josef_coach.jpg");
-    background-size: cover;
-    }
-    
-    .yellow {
-    color: yellow;
-    background:#FFAA00;
-    }
-    
-    .blue {
-    color: blue;
-    }
-    
+  width: 50%;
+}
+
+.header-container {
+  color: white;
+  height: 50px;
+  background: black;
+  background: rgba(0, 0, 0, .5);
+  border-bottom: solid 1px black;
+}
+
+.header {
+  margin: 0 auto;
+}
+
+.header h1 {
+  font-weight: 400;
+  margin: 0;
+  margin-left: .5em;
+  padding-top: 5px;
+}
+
+.blocks {
+  margin: 0 auto;
+}
+
+.block {
+  float:left;
+  margin-top: 20px;
+  position: relative;
+  background: black;
+  width: 18.85%;
+  margin-right: 1%;
+  min-width: 250px;
+  height: 260px;
+  box-shadow: 10px 10px 0 rgba(0, 0, 0, .3);
+  text-align: center;
+  overflow: hidden;
+  -webkit-backface-visibility: hidden;
+  border: solid 1px #000;
+  text-decoration: none;
+}
+
+.block:hover {
+  color: white;
+
+}
+
+.yellow a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.heading {
+  height: 30px;
+  position: relative;
+  font-size: 1.4em;
+  width: 100%;
+  background: rgba(255, 255, 255, .13);
+  padding: 25px 0;
+  border-bottom: solid 1px;
+}
+
+.num {
+  position: relative;
+  font-size: 4.2em;
+  padding-top: 40px;
+}
+
+.greenboxlink a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.green {
+  color: green;
+  background-image: url("../images/jesper_coach.jpg");
+  background-size: cover;
+}
+
+.orange {
+  color: orange;
+  background-image: url("../images/josef_coach.jpg");
+  background-size: cover;
+}
+
+.purple {
+  color: purple;
+  background-image: url("../images/josef_coach.jpg");
+  background-size: cover;
+}
+
+.yellow {
+  color: yellow;
+  background: #FFAA00;
+}
+
+.blue {
+  color: blue;
+}
