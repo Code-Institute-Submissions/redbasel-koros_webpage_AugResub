@@ -84,6 +84,27 @@ div {
   overflow: hidden;
   float: left;
 }
+
+#hero-jesper {
+  background-image: url("../images/jesper_hero.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
+#hero-josef {
+  background-image: url("../images/josef_hero.jpg");
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+}
+
 /* block style */
 
 .wrapper {
