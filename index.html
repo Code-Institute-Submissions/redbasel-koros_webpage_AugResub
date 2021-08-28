@@ -14,7 +14,7 @@
     <a href="index.html">
       <h1 id="logotext">KOROS</h1>
     </a>
-    <nav>
+    <nav id="navbar">
       <ul id="menu">
         <li>
           <a href="#hero-image">HOME</a>
@@ -64,7 +64,7 @@
   <section id="hero-outer">
     <div id="index-image1"></div>
   </section>
-  <section>
+  <section id="block_section">
 
     <div class="blocks wrapper" id="team">
       <h2>Meet our coaches</h2>
@@ -74,7 +74,7 @@
         <div class="heading">
           Jesper Bengtsson
         </div>
-        <div class="num"><i class="fas fa-info-circle"></i></div>
+        <div class="num">Visit</div>
       </a>
 
 
@@ -82,7 +82,7 @@
         <div class="heading">
           Josef Andersson
         </div>
-        <div class="num"><i class="far fa-envelope"></i></div>
+        <div class="num">Visit</div>
       </a>
     </div>
     <!--Blocks Ends-->
@@ -92,7 +92,7 @@
     </div>
   </section>
   <section>
-    <div class="contact_form">
+    <div class="contact_form" id="contact">
       <form method="get" action="success.html">
         <!-- Contact info-->
         <h2>Prospective Client Form<i class="fas fa-heartbeat"></i></h2>
@@ -106,37 +106,37 @@
         <label for="email">Email Address</label>
         <input type="email" id="email" name="email_address" required class="text-input">
 
-        <h3>Current Situation</h3>
+        <h3>Tell Me About You</h3>
         <!-- qualitative feedback -->
-        <H4>ENERGY</H4>
-        <label for="problematic1">Problematic</label>
-        <input type="radio" id="problematic1" name="energy" value="problematic" required>
+        <H4>Age</H4>
+        <label for="16_18">16-18</label>
+        <input type="radio" id="16_18" name="age" value="16_18" required>
 
-        <label for="normal1">Normal</label>
-        <input type="radio" id="normal1" name="energy" value="normal" required>
+        <label for="18_30">18-30</label>
+        <input type="radio" id="18_30" name="age" value="18_30" required>
 
-        <label for="great1">Great</label>
-        <input type="radio" id="great1" name="energy" value="great" required>
+        <label for="30_+">30+</label>
+        <input type="radio" id="30_+" name="age" value="great" required>
 
-        <H4>SLEEP</H4>
-        <label for="problematic2">Problematic</label>
-        <input type="radio" id="problematic2" name="sleep" value="problematic" required>
+        <H4>Gender</H4>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" required>
 
-        <label for="normal2">Normal</label>
-        <input type="radio" id="normal2" name="sleep" value="normal" required>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female" required>
 
-        <label for="great2">Great</label>
-        <input type="radio" id="great2" name="sleep" value="great" required>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other" required>
 
-        <H4>HUNGER</H4>
-        <label for="problematic3">Problematic</label>
-        <input type="radio" id="problematic3" name="hunger" value="problematic" required>
+        <H4>Goal</H4>
+        <label for="weight_loss">Weight Loss</label>
+        <input type="radio" id="weight_loss" name="goal" value="weight_loss" required>
 
-        <label for="normal3">Normal</label>
-        <input type="radio" id="normal3" name="hunger" value="normal" required>
+        <label for="muscle_build">Build Muscle</label>
+        <input type="radio" id="muscle_build" name="goal" value="muscle_build" required>
 
-        <label for="great3">Great</label>
-        <input type="radio" id="great3" name="hunger" value="great" required>
+        <label for="healthy_lifestyle">Healthy Lifestyle</label>
+        <input type="radio" id="healthy_lifestyle" name="goal" value="healthy_lifestyle" required>
         <br><br><br>
 
         <label for="extracomment">Extra Comment</label> <br>
@@ -152,10 +152,6 @@
   </section>
   <footer>
     <script src="https://kit.fontawesome.com/40b3908290.js" crossorigin="anonymous"></script>
-    <p>
-      <a href="https://www.joinitiative.se">Check out our charity, just click the icon!<i
-          class="fas fa-hand-holding-heart"></i></a>
-    </p>
 
     <ul id="footer-menu">
       <li>

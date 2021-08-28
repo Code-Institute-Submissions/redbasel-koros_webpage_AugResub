@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira:ital,wght@0,600;1,500&display=swap');
 header {
-  background-color: brown;
+  background-color:white;
 
 }
 
@@ -10,6 +10,7 @@ header {
   right: 0;
   left: 0;
   z-index: 999;
+  background-color: #EAD8D8;
 }
 
 
@@ -17,13 +18,14 @@ html {
   height: 100%;
   width: 100%;
   margin: 0;
+  text-decoration: none;
 }
 
 body {
   height: 100%;
   width: 100%;
   margin: 0;
-  /*padding-top: 85px;*/
+  background-color: whitesmoke;
 }
 
 
@@ -33,7 +35,13 @@ div {
   width: 100%;
 }
 #menu {
-  color:brown;
+  color: #EAD8D8;
+  font-family: Saira;
+  font-weight: 400;
+  font-style: italic;
+}
+#navbar{
+  background-color: limegreen;
 }
 #menu li {
   float: right;
@@ -41,11 +49,11 @@ div {
   margin-right: 40px;
 }
 #logotext {
-  color: #377E7A;
+  color: #707070;
   /* kolla denna jan */
-  text-decoration: none;
   font-family: Saira;
   font-weight: 600;
+  background-color: white;
 }
 
 
@@ -83,6 +91,7 @@ div {
   background-size: cover;
   overflow: hidden;
   float: left;
+  padding-top: 30%;
 }
 
 #hero-jesper {
@@ -106,6 +115,10 @@ div {
 }
 
 /* block style */
+
+#block_section {
+  padding-bottom: 20px;
+}
 
 .wrapper {
   width: 50%;
@@ -137,6 +150,7 @@ div {
 .block {
   float:left;
   margin-top: 20px;
+  margin-bottom: 40px;
   position: relative;
   background: black;
   width: 18.85%;
