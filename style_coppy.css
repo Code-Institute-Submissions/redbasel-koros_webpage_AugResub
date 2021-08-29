@@ -31,21 +31,15 @@ body {
 
 }
 
-.text-center {
+.text_center {
   text-align: center;
 }
 
-#text_main {
-  padding-top: 5%;
+#about-us {
+  padding: 5%;
 }
-
 #jesper-text {
-  padding-top: 3%;
-  padding-bottom: 3%;
-}
-
-#josef-text {
-  margin-top: 20px;
+  padding: 5%;
 }
 
 #hero-text {
@@ -164,9 +158,6 @@ a:hover {
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  float: left;
-  padding-top: 20%;
-  
 }
 
 .text-header {
@@ -230,6 +221,11 @@ a:hover {
 
 }
 
+.yellow a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
 
 .heading {
   height: 30px;
@@ -249,6 +245,12 @@ a:hover {
   font-family: Saira;
 }
 
+.greenboxlink a:link {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
 .green {
   color: #821122;
   background-image: url("../images/jesper_coach.jpg");
@@ -261,6 +263,20 @@ a:hover {
   background-size: cover;
 }
 
+.purple {
+  color: purple;
+  background-image: url("../images/josef_coach.jpg");
+  background-size: cover;
+}
+
+.yellow {
+  color: yellow;
+  background: #FFAA00;
+}
+
+.blue {
+  color: blue;
+}
 
 .contact_form {
   text-align: center;

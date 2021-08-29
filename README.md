@@ -127,7 +127,7 @@ How I have tested the website:
 #### Solved bugs
 
 * The third image on the main page (index.html) was overlapping the contact form. The solution was to change the image to a float type instead." float: left ".
-* The hyperlinks remained udnerlined despite the text decoratiosn being removed from all areas elements. The solution was in this case to manually style each hyperlink seperately. This is not ideal but it solved the issue. 
+* When entering either of the individual coach page, the menu hrefs ahd to be adjusted as it is linked to sections of the main page. For example had to change #about-us to index.html#about-us. 
 
 
 ## Technologies
@@ -142,7 +142,7 @@ How I have tested the website:
 
 ## Citations
 
-* https://dyclassroom.com/reference-javascript/player-for-website-video-and-audio-using-plyr PLYR GUIDE
-*  2
-* 3
+*  Love running project. 
+*  w3 school
+* Boxes that we used. 
 * 4
