@@ -63,19 +63,19 @@ This project is called “KOROS” and is based on HTML combined with CSS. KOROS
 
 The websites following features will be explained here:-
 
-1. 
+1. Easy way to introduce KOROS for the visitor.
 
-2. 
+2. Overview of the available coaches.
 
-3. 
+3. Sticky menu for easy navigation.
 
-4. 
+4. Seperate pages for detailed information about the coaches.
 
-5.  
+5. The ability to play videos. 
 
-6. 
+6.  Footer with internal and external links.
 
-7. 
+7. Contact form for clients to get in touch and receive help.
 
 
 ## Testing
@@ -126,8 +126,8 @@ How I have tested the website:
 
 #### Solved bugs
 
-* The first bug.
-* The second bug.
+* The third image on the main page (index.html) was overlapping the contact form. The solution was to change the image to a float type instead." float: left ".
+* The hyperlinks remained udnerlined despite the text decoratiosn being removed from all areas elements. The solution was in this case to manually style each hyperlink seperately. This is not ideal but it solved the issue. 
 
 
 ## Technologies
