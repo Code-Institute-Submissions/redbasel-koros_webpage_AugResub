@@ -30,6 +30,7 @@ Welcome to Koros
 This project is called “KOROS” and is based on HTML combined with CSS. KOROS will be a website where clients can be introduced to fitness and health coaches that operate under the KOROS brand. Here the clients can compare coaches, watch a introductory video and fill out a contact form. 
 
 ### Wireframes
+The wireframes were developed using ADOBE XD. They seem detailed but their main purpose is to only display the different functions. Thus, the final design, fonts, and colors will differ. 
 #### *Wireframe 1*
 * Startpage showcasing hero image, head navigation where the active page is underlined. As well as introductory rpagraph, welcoming the user. 
 ![Image showcasing the startpage for desktop](docs/wireframe/wf1.png)
@@ -146,4 +147,4 @@ How I have tested the website:
 *  Love running project. 
 *  w3 school for button. 
 * Boxes that we used. 
-* 
+* https://unsplash.com/photos/20jX9b35r_M main page photo

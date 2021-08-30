@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Saira:ital,wght@0,600;1,500&display=swap');
+
 header {
-  background-color:white;
+  background-color: white;
 
 }
 
@@ -29,6 +30,11 @@ body {
   font-family: Open Sans;
   text-decoration: none;
 
+}
+
+.footer_list ul {
+  list-style-type: none;
+  text-decoration: none;
 }
 
 .text-center {
@@ -65,7 +71,7 @@ body {
   right: 150px;
 
   position: absolute;
-  text-align:center;
+  text-align: center;
 }
 
 div {
@@ -79,11 +85,12 @@ a {
 }
 
 a:hover {
-  color:#821122; 
-  text-decoration:none; 
-  cursor:pointer;  
+  color: #821122;
+  text-decoration: none;
+  cursor: pointer;
 }
-.footer_decoration li{
+
+.footer_decoration li {
   list-style-type: none;
   text-decoration: none;
 }
@@ -101,6 +108,7 @@ a:hover {
   list-style-type: none;
   margin-right: 40px;
 }
+
 .logotext {
   color: #707070;
   /* kolla denna jan */
@@ -111,10 +119,31 @@ a:hover {
   font-size: 70px;
 }
 
+button {
+  border: none;
+  color: #dcdcdc;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+#success {
+  height: 30%;
+  margin-top: 5%;
+}
+
+.button1 {
+  background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
 
 #hero-outer {
   height: 100%;
-  
 }
 
 #hero-image {
@@ -169,7 +198,7 @@ a:hover {
   overflow: hidden;
   float: left;
   padding-top: 20%;
-  
+
 }
 
 .text-header {
@@ -211,7 +240,7 @@ a:hover {
 }
 
 .block {
-  float:left;
+  float: left;
   margin-top: 20px;
   margin-bottom: 40px;
   position: relative;
