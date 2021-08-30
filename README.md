@@ -113,7 +113,7 @@ The user will find the coaches next to each other as well as an icon that displa
 The user can find a video on the each dedicated apge for the coaches that has a video of them explaining tehri approach to training and ho they can help a client. 
 
 ##### *User Case 3*
-At the bottom of the page the clients can find a contact form and if they wish to simply jsut send an email they can find a email adress in the footer. 
+At the bottom of the page the clients can find a contact form and if they wish to simply just send an email they can find a email adress in the footer. 
 
 
 How I have tested the website:
