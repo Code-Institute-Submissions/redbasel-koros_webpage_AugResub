@@ -83,51 +83,52 @@ The websites following features will be explained here:-
 ### Testing Features
 
 #### *Feature 1*
-
+As the visitor scrolls down they are greeted by a "about us" text and instructions on how to proceed. 
 
 ##### *Feature 2*
-
+There is a dedicated section called "Meet the team" where thre current coaches are presented. They ar epresented using boxes, the boxes convey a lot of information in a tight space. The coach name, picture and speciality in form of an icon is presented to the user. If they press the box they are taken to the coaches dedicated page.
 
 ##### *Feature 3*
-
+On the main page the header is sticky with internal links connected to the different sections of the mainpage. Having the header sticky doesnt lend itself well to the dedicated coach pages. Firstly because links are not that relevant, secondly it takes up a portion of th escreen to convey ifnormation toteh user that is not neccesarily requested at that time. 
 
 ##### *Feature 4*
-
+When the user presses on one of the coaches they are redirected to their individual page. 
 
 ##### *Feature 5*
-
+Each coach have their own introduction video that is found via their dedicated page. The video is delivered via embedding and iframe. 
 
 ##### *Feature 6*
-
+The footer features links to navigate on the main page and direct links to the coaches.
 
 ##### *Feature 7*
-
+The final section of the man apge features a contact form where client scan leave the most essential information so the coaches acna efficiently help them. 
 
 ### Testing The User Cases
 
 ##### *User Case 1*
-
+The user will find the coaches next to each other as well as an icon that displays their speciality in order to quickly grasp the profile of the coach. 
 
 ##### *User Case 2*
-
+The user can find a video on the each dedicated apge for the coaches that has a video of them explaining tehri approach to training and ho they can help a client. 
 
 ##### *User Case 3*
-
+At the bottom of the page the clients can find a contact form and if they wish to simply jsut send an email they can find a email adress in the footer. 
 
 
 How I have tested the website:
 * The website..
 
 ### Validators
-* checkCSS
+* HTML- tested with https://validator.w3.org/
 
-* checkhtml
+* CSS- tested with https://jigsaw.w3.org/css-validator
+
 
 
 #### Solved bugs
 
 * The third image on the main page (index.html) was overlapping the contact form. The solution was to change the image to a float type instead." float: left ".
-* When entering either of the individual coach page, the menu hrefs ahd to be adjusted as it is linked to sections of the main page. For example had to change #about-us to index.html#about-us. 
+* When entering either of the individual coach page, the menu hrefs had to be adjusted as it is linked to sections of the main page. For example had to change #about-us to index.html#about-us. 
 
 
 ## Technologies
@@ -143,6 +144,6 @@ How I have tested the website:
 ## Citations
 
 *  Love running project. 
-*  w3 school
+*  w3 school for button. 
 * Boxes that we used. 
-* 4
+* 

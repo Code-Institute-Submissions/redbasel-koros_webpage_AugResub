@@ -83,7 +83,10 @@ a:hover {
   text-decoration:none; 
   cursor:pointer;  
 }
-
+.footer_decoration li{
+  list-style-type: none;
+  text-decoration: none;
+}
 
 .menu {
   font-family: Saira;
