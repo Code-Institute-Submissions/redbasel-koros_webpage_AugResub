@@ -5,7 +5,7 @@ header {
 
 }
 
-/* Style the header */
+/* Style the header to make it sticky */
 .sticky {
   position: fixed;
   right: 0;
@@ -21,7 +21,7 @@ html {
   margin: 0;
   text-decoration: none;
 }
-
+/* styling the body's background and font.. */
 body {
   height: 100%;
   width: 100%;
@@ -53,7 +53,7 @@ body {
 #josef-text {
   margin-top: 20px;
 }
-
+/* This is the overlay that is used over the hero images */
 #hero-text {
   font-size: 130%;
   font-family: Saira;
@@ -89,26 +89,25 @@ a:hover {
   text-decoration: none;
   cursor: pointer;
 }
-
+/* Style the the lsit element under the footer_decoration class */
 .footer_decoration li {
   list-style-type: none;
   text-decoration: none;
 }
-
+/* Styling the navigation menu */
 .menu {
   font-family: Saira;
   font-weight: 400;
   font-style: italic;
   text-decoration: none;
 }
-
+/* Style the list elements under the menu */
 .menu li {
-  color: limegreen;
   float: right;
   list-style-type: none;
   margin-right: 40px;
 }
-
+/* This is the styling for the KOROS logo */
 .logotext {
   color: #707070;
   /* kolla denna jan */
@@ -118,7 +117,7 @@ a:hover {
   text-align: center;
   font-size: 70px;
 }
-
+/* This is to style the button type */
 button {
   border: none;
   color: #dcdcdc;
@@ -130,22 +129,22 @@ button {
   margin: 4px 2px;
   cursor: pointer;
 }
-
+/*  This is for the text section on the succes page*/
 #success {
   height: 30%;
   margin-top: 5%;
 }
-
+/* Specific button styling */
 .button1 {
   background-color: white;
   color: black;
   border: 2px solid #4CAF50;
 }
-
+/* Ensuring parent element is of adequate size */
 #hero-outer {
   height: 100%;
 }
-
+/* The styling for the hero image on the main page index.html */
 #hero-image {
   background-image: url("../images/bw_gym.jpg");
   height: 100%;
@@ -155,7 +154,7 @@ button {
   background-size: cover;
   overflow: hidden;
 }
-
+/* This for the image under the about us section on the main page*/
 #index-image1 {
   background-image: url("../images/josef_stretch.jpg");
   height: 100%;
@@ -165,7 +164,7 @@ button {
   background-size: cover;
   overflow: hidden;
 }
-
+/* Thisis for the image udner the "Meet The team" section on the main page index.html */
 #index-image2 {
   background-image: url("../images/jesper_stretch.jpg");
   height: 100%;
@@ -177,7 +176,7 @@ button {
   float: left;
   padding-top: 30%;
 }
-
+/* This is the hero image on jesper.html */
 #hero-jesper {
   background-image: url("../images/jesper_hero.jpg");
   height: 100%;
@@ -187,7 +186,7 @@ button {
   background-size: cover;
   overflow: hidden;
 }
-
+/* This is the hero image on josef.html */
 #hero-josef {
   background-image: url("../images/josef_hero.jpg");
   height: 100%;
@@ -200,18 +199,18 @@ button {
   padding-top: 20%;
 
 }
-
+/* styling for the text header change to h2 istället jan walla!!!!!!!!!*/
 .text-header {
   font-family: saira;
   font-size: 32px;
 }
 
-/* block style */
+/* All the coming styling is fo rthe block elements */
 
 #block_section {
   padding-bottom: 20px;
 }
-
+/* The wrapper is influential in the positioning of the boxes, when adding more boxes it will effect how many boxes are shown per line*/
 .wrapper {
   width: 50%;
 }
@@ -238,7 +237,7 @@ button {
 .blocks {
   margin: 0 auto;
 }
-
+/* This is stylig of the actual box, float:left; is important for it to work as intended */
 .block {
   float: left;
   margin-top: 20px;
@@ -256,13 +255,13 @@ button {
   border: solid 1px #000;
   text-decoration: none;
 }
-
+/* When hovering the block the text and icons are turned to white */
 .block:hover {
   color: white;
 
 }
 
-
+/* This is for styling the coach's name on the box */
 .heading {
   height: 30px;
   position: relative;
@@ -273,27 +272,27 @@ button {
   border-bottom: solid 1px;
   font-family: Saira;
 }
-
+/* This is the stylign for the icon found on the box*/
 .num {
   position: relative;
   font-size: 4em;
   padding-top: 40px;
   font-family: Saira;
 }
-
+/* This is styling for the specific box, this one is for coach jesper */
 .green {
   color: #821122;
   background-image: url("../images/jesper_coach.jpg");
   background-size: cover;
 }
-
+/* This is styling for the specific box, this one is for coach josef */
 .orange {
   color: #65768b;
   background-image: url("../images/josef_coach.jpg");
   background-size: cover;
 }
 
-
+/* Styling for the contact form on the main page index.html */
 .contact_form {
   text-align: center;
   padding-top: 20%;
