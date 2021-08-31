@@ -82,7 +82,7 @@ The websites following features will be explained here:-
 ## Testing
 
 ### Testing Features
-
+*Please note that some minor styling of the website may have been updated since these screenshots were taken*
 #### *Feature 1*
 As the visitor scrolls down they are greeted by a "about us" text and instructions on how to proceed.
 ![About us section](docs/screenshots/about_us.png) 
@@ -145,7 +145,10 @@ How I have tested the website:
 
 
 ## Deployment
-
+Deployed to github pages using these following steps:
+Project repo>Settings>Github pages>Choose main branch > save
+Firstly, enter the repo via github. Then settings, scroll down to github pages. Choose master branch, then save. That's it. 
+Deployment url: https://redbasel.github.io/koros_webpage/
 
 
 ## Citations
