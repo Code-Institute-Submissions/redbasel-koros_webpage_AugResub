@@ -117,7 +117,7 @@ At the bottom of the page the clients can find a contact form and if they wish t
 
 
 How I have tested the website:
-* The website..
+* The website has been tested on both chrome and firefox at full hd resololution as well as >500px. 
 
 ### Validators
 * HTML- tested with https://validator.w3.org/
