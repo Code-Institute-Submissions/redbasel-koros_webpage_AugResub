@@ -84,25 +84,31 @@ The websites following features will be explained here:-
 ### Testing Features
 
 #### *Feature 1*
-As the visitor scrolls down they are greeted by a "about us" text and instructions on how to proceed. 
+As the visitor scrolls down they are greeted by a "about us" text and instructions on how to proceed.
+![About us section](docs/screenshots/about_us.png) 
 
 ##### *Feature 2*
-There is a dedicated section called "Meet the team" where thre current coaches are presented. They ar epresented using boxes, the boxes convey a lot of information in a tight space. The coach name, picture and speciality in form of an icon is presented to the user. If they press the box they are taken to the coaches dedicated page.
+There is a dedicated section called "Meet our coaches" where thre current coaches are presented. They ar epresented using boxes, the boxes convey a lot of information in a tight space. The coach name, picture and speciality in form of an icon is presented to the user. If they press the box they are taken to the coaches dedicated page.
+![Meet our coaches section](docs/screenshots/meet.png) 
 
 ##### *Feature 3*
-On the main page the header is sticky with internal links connected to the different sections of the mainpage. Having the header sticky doesnt lend itself well to the dedicated coach pages. Firstly because links are not that relevant, secondly it takes up a portion of th escreen to convey ifnormation toteh user that is not neccesarily requested at that time. 
+On the main page the header is sticky with internal links connected to the different sections of the mainpage. Having the header sticky doesnt lend itself well to the dedicated coach pages. Firstly because links are not that relevant, secondly it takes up a portion of th escreen to convey ifnormation toteh user that is not neccesarily requested at that time.
+![Display of the sticky header](docs/screenshots/main.png) 
 
 ##### *Feature 4*
 When the user presses on one of the coaches they are redirected to their individual page. 
+![Individual coach page](docs/screenshots/jesper.png) 
 
 ##### *Feature 5*
 Each coach have their own introduction video that is found via their dedicated page. The video is delivered via embedding and iframe. 
+![Individual](docs/screenshots/video.png) 
 
 ##### *Feature 6*
 The footer features links to navigate on the main page and direct links to the coaches.
 
 ##### *Feature 7*
-The final section of the man apge features a contact form where client scan leave the most essential information so the coaches acna efficiently help them. 
+The final section of the main page features a contact form where client scan leave the most essential information so the coaches acna efficiently help them. 
+![contact form](docs/screenshots/contact.png) 
 
 ### Testing The User Cases
 
@@ -144,7 +150,8 @@ How I have tested the website:
 
 ## Citations
 
-*  Love running project. 
-*  w3 school for button. 
-* Boxes that we used. 
-* https://unsplash.com/photos/20jX9b35r_M main page photo
+ 
+* https://www.w3schools.com/tags/tag_button.asp -w3 school for button. 
+* https://codepen.io/spktrmdesign/pen/ekgty -Boxes that we used. 
+* https://unsplash.com/photos/20jX9b35r_M -main page photo
+* Borrowed the text box that sits over the hero iamges from codeinstitute Loverunning demo. 

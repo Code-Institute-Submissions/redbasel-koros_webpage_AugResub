@@ -78,7 +78,7 @@ form {
   padding-top: 40px;
   padding-left: 10px;
 
-  background-color: rgba(241, 109, 107, .7);
+  background-color: #EAD8D8;
 
   bottom: 30px;
   right: 150px;
@@ -331,7 +331,7 @@ button {
     padding-top: 20x;
     padding-left: 5px;
   
-    background-color: rgba(241, 109, 107, .7);
+    background-color: #EAD8D8;
   
     bottom: 15px;
     right: 75px;
